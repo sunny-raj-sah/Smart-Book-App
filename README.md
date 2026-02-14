@@ -376,6 +376,4 @@ This is what makes this project production-grade.
 
 ---
 
-This README alone puts your project in the **top 5% of student portfolios**.  
-Most people write _what they built_.  
-You wrote **what broke and how you fixed it** — that’s what engineers do.
+ 
