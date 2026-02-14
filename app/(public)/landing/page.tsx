@@ -1,31 +1,25 @@
-// import { redirect } from "next/navigation";
-// import { createServerSupabase } from "@/lib/supabase/server";
+// "use client";
 
-// export default async function IndexGate() {
-//   const supabase = await createServerSupabase();
-//   const { data } = await supabase.auth.getUser();
+// import { useAuth } from "@/hooks/use-auth";
 
-//   if (data.user) {
-//     redirect("/home");
-//   }
+// export default function Landing() {
+//   const { loginWithGoogle } = useAuth();
 
-//   redirect("/landing");
-    
+//   return (
+//     <div className="flex items-center justify-center min-h-screen">
+//       <button
+//         onClick={loginWithGoogle}
+//         className="px-6 py-3 bg-black text-white rounded"
+//       >
+//         Sign in with Google
+//       </button>
+//     </div>
+//   );
 // }
 
 
-// import { redirect } from "next/navigation";
-// import { createServerSupabase } from "@/lib/supabase/server";
 
-// export default async function IndexGate() {
-//   const supabase = createServerSupabase();
-//   const { data: { user } } = await supabase.auth.getUser();
-
-//   if (user) redirect("/home");
-//   redirect("/landing");
-// }
-
-
+ 
 
 
 
